@@ -6,5 +6,8 @@ copy from [用 lua 脚本配合 C++ 开发](https://indienova.com/indie-game-dev
 ## compile on macos
 
 ``` shell
+cd cpp-call-lua:
 g++ main.cpp -o main -I /usr/local/include/lua/ -llua
+./main
+
 ```
