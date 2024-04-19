@@ -41,3 +41,5 @@ luac.out
 
 **/.ccls-cache
 cpp-call-lua/build
+
+cmake_cpp_lua/build
