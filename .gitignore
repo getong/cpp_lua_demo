@@ -45,3 +45,4 @@ cpp-call-lua/build
 cmake_cpp_lua/build
 
 **/compile_commands.json
+**/build
