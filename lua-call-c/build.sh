@@ -11,4 +11,4 @@ cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 ..
 make
 
 # Move compile_commands.json up one directory (change this if you have specific needs)
-mv compile_commands.json ../../..
+mv compile_commands.json ../../
