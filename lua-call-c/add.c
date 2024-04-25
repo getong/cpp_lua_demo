@@ -11,7 +11,7 @@ static int _do_adder(lua_State *L) {
 }
 
 static int _adder(lua_State *L) {
-  double base = luaL_checknumber(L, 1);
+  /* double base = luaL_checknumber(L, 1); */
   lua_pushvalue(L, 1);
   /* 1 upvalue */
   lua_pushcclosure(L, _do_adder, 1);
